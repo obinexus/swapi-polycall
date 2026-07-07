@@ -1,0 +1,24 @@
+{
+  "name": "@obinexusltd/swapi-polycall",
+  "version": "1.0.0",
+  "description": "PolyCall adapter for the Star Wars API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nnamdi Michael Okpala",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "swapi-polycall": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obinexus/swapi-polycall.git"
+  },
+  "homepage": "https://github.com/obinexus/swapi-polycall#readme",
+  "bugs": {
+    "url": "https://github.com/obinexus/swapi-polycall/issues"
+  }
+}

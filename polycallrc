@@ -1,0 +1,16 @@
+[polycall]
+name=swapi-polycall
+mode=adapter
+verify_before_execute=true
+
+[remote]
+base_url=https://swapi.dev/api
+timeout_ms=5000
+
+[operations]
+people=people
+planets=planets
+starships=starships
+films=films
+species=species
+vehicles=vehicles
