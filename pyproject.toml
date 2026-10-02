@@ -1,0 +1,15 @@
+# QA descriptor for the Polycall binding matrix (read by polycall/qa/run_qa.py).
+# This repository is NOT a Python package and is not pip-installable;
+# its native manifest is package.json.
+[tool.polycall.binding]
+name = "swapi-polycall"
+language = "JavaScript (Node.js)"
+native_manifest = "package.json"
+registry = "npm"
+package = "@obinexusltd/swapi-polycall"
+abi = 0  # does not use the Polycall binding ABI
+support = "not-a-binding"
+linux_image = "node:22"
+build = "npm pack"
+test = "npm test"
+windows_test = "npm test"

@@ -1,17 +1,32 @@
 {
   "name": "@obinexusltd/swapi-polycall",
-  "version": "1.0.0",
-  "description": "PolyCall adapter for the Star Wars API",
+  "version": "1.0.1",
+  "description": "Star Wars API (swapi.dev) REST client with input and response checks. Not a Polycall binding: it does not use the Polycall core.",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "cli.js",
+    "swapi-polycall.ini",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/swapi.test.js"
   },
-  "keywords": [],
+  "keywords": [
+    "swapi",
+    "star-wars",
+    "rest",
+    "client"
+  ],
   "author": "Nnamdi Michael Okpala",
   "license": "MIT",
   "type": "commonjs",
   "bin": {
-    "swapi-polycall": "./cli.js"
+    "swapi-polycall": "cli.js"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "repository": {
     "type": "git",

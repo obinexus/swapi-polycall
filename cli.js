@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+"use strict";
 
 const { polycallSwapi } = require("./index");
 
@@ -7,8 +8,8 @@ async function main() {
   const id = Number(process.argv[3]);
 
   if (!operation || !id) {
-    console.error("Usage: node cli.js <people|planets|starships|films|species|vehicles> <id>");
-    process.exit(1);
+    console.error("Usage: swapi-polycall <people|planets|starships|films|species|vehicles> <id>");
+    process.exit(2);
   }
 
   try {
