@@ -16,7 +16,7 @@ npx swapi-polycall people 1
 ```
 
 ```js
-const { polycallSwapi } = require("@obinexusltd/swapi-polycall");
+const { polycallSwapi } = require("swapi-polycall");
 const { data } = await polycallSwapi("planets", 1);            // swapi.dev/api/planets/1/
 await polycallSwapi("people", 1, { baseUrl: "http://localhost:8080/api", timeoutMs: 2000 });
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "@obinexusltd/swapi-polycall",
+  "name": "swapi-polycall",
   "version": "1.0.1",
   "description": "Star Wars API (swapi.dev) REST client with input and response checks. Not a Polycall binding: it does not use the Polycall core.",
   "main": "index.js",
